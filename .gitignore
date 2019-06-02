@@ -1,0 +1,17 @@
+.idea
+dist
+*.egg-info
+.eggs
+*.pyc
+venv
+virtualenv
+build/
+DerivedData/
+*~.nib
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+!xcshareddata
+!xcschemes

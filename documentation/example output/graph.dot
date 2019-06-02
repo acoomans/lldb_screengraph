@@ -1,0 +1,26 @@
+
+digraph G {
+    rankdir = LR;
+    
+	N0 [shape=rect,image="screenshot0.png", label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11", labelloc=b];
+	N1 [shape=rect,image="screenshot1.png", label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11", labelloc=b];
+	N2 [shape=rect,image="screenshot2.png", label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11", labelloc=b];
+    
+	N0 -> N1 [label=""];
+	N1 -> N2 [label=""];
+	N2 -> N2 [label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11"];
+	N2 -> N2 [label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11"];
+	N2 -> N2 [label="frame #0: 0x0000000101c762ce
+ScreenGraphTest`event(name=\"button_c_tapped_event\") at
+analytics.swift:12:11"];
+}
